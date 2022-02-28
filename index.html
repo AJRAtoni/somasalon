@@ -27,6 +27,21 @@
       background-size: cover;
       overflow: hidden;
       font-family: 'Courier New', Courier, monospace;}
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+        font-weight: bold;
+      }
+
+      @media only screen and (max-device-width: 500px)
+      {
+      .fs-5 {
+        font-size: 1rem !important;
+      }
+      }
 </style>
     <title>Soma Salon</title>
   </head>
@@ -41,8 +56,10 @@
   <div class="row align-items-center px-4">
       <img class="mx-auto py-3 py-md-4" style="max-width: 500px;" src="img/botones.png"></div>
     </div>
-    <div class="row align-items-center px-3">
-    <p class="fs-5 text-white text-center pt-3 pt-md-4">Carrer d'Antoni Maura 57, bajos<br>07620 Llucmajor, Mallorca<br>Ver en Google Maps    <nobr><span class="ps-2 ps-md-4">Telefono: +34 611486327</span></nobr></p>
+    <div class="row align-items-center px-2">
+    <p class="fs-5 lh-sm text-white text-center pt-3 pt-md-4">Carrer d'Antoni Maura 57, bajos<br>
+      07620 Llucmajor, Mallorca<br>
+      <a href="https://www.google.com/maps/place/Soma+Sal%C3%B3n/@39.4868837,2.8863422,17z/data=!3m1!4b1!4m5!3m4!1s0x1297bb64be4d9f87:0xd3ded90d5c846eac!8m2!3d39.4868837!4d2.8885362">Ver en Google Maps</a>    <nobr><span class="ps-2 ps-md-4">Telefono: +34 611486327</span></nobr></p>
 
   </div>
 </div>
